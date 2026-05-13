@@ -4,7 +4,7 @@ Script SQL que calcula o crescimento total da comunidade ao longo do tempo, most
 
 ## Contexto
 
-Diferente do relatório mês a mês (que mostra só o que aconteceu naquele mês), esse aqui mostra o total cumulativo — ou seja, quanto a plataforma somou desde o início até determinado ponto no tempo.
+Diferente do relatório mês a mês (que mostra só o que aconteceu naquele mês), esse aqui mostra o total cumulativo ,ou seja, quanto a plataforma somou desde o início até determinado ponto no tempo.
 
 ## Como funciona
 
