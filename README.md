@@ -13,7 +13,7 @@ Os scripts simulam cenários reais de uma plataforma com múltiplos canais (Twit
 ### 1. Ranking de Pontos por Canal
 **Arquivo:** `ranking_pontos_canal.sql`
 
-Calcula o total de pontos de cada cliente por canal de origem e aplica três funções de ranking — `RANK()`, `ROW_NUMBER()` e `DENSE_RANK()` — para comparar o comportamento de cada uma delas em cenários com empate.
+Calcula o total de pontos de cada cliente por canal de origem e aplica três funções de ranking , `RANK()`, `ROW_NUMBER()` e `DENSE_RANK()` , para comparar o comportamento de cada uma delas em cenários com empate.
 
 ---
 
@@ -48,7 +48,7 @@ Divide os clientes em 3 níveis de engajamento (Hiper Ativo, Muito Ativo, Pouco 
 
 ## Banco de dados
 
-Todos os scripts foram escritos para **SQLite**. O uso de `strftime('%Y-%m', data)` para extrair ano/mês é específico do SQLite — para outros bancos, adapte:
+Todos os scripts foram escritos para **SQLite**. O uso de `strftime('%Y-%m', data)` para extrair ano/mês é específico do SQLite , para outros bancos, adapte:
 
 | Banco | Equivalente |
 |---|---|
