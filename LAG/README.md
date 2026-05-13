@@ -14,7 +14,7 @@ O script usa duas CTEs encadeadas:
 Agrupa as transações por mês usando `strftime('%Y-%m', DtCriacao)` e conta quantas aconteceram em cada período.
 
 **2ª CTE — `mes_com_lag`**  
-Usa a função `LAG()` para puxar o valor do mês anterior e colocar na mesma linha. O terceiro argumento do `LAG` é `0`, então o primeiro mês não fica nulo — aparece como zero.
+Usa a função `LAG()` para puxar o valor do mês anterior e colocar na mesma linha. O terceiro argumento do `LAG` é `0`, então o primeiro mês não fica nulo ,aparece como zero.
 
 **Select final**  
 Calcula a variação subtraindo o mês atual pelo anterior.
