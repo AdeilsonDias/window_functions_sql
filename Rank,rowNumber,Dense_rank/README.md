@@ -16,7 +16,7 @@ Consulta SQL que calcula o total de pontos de cada cliente separado por canal de
 | `ROW_NUMBER()` | Sempre único, sem empates (ex: 1, 2, 3) |
 | `DENSE_RANK()` | Não pula posições (ex: 1, 1, 2) |
 
-Todas as três usam `PARTITION BY DescSistemaOrigem` — ou seja, o ranking é reiniciado para cada canal separadamente.
+Todas as três usam `PARTITION BY DescSistemaOrigem` , ou seja, o ranking é reiniciado para cada canal separadamente.
 
 ## Estrutura esperada da tabela
 
