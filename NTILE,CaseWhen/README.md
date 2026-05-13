@@ -12,7 +12,7 @@ O time de CRM precisa tratar clientes diferentes de formas diferentes. Quem tran
 Conta quantas transações cada cliente fez no total.
 
 **2ª CTE — `segmentado`**  
-Usa `NTILE(3)` para dividir os clientes em 3 grupos iguais, ordenando do mais ativo para o menos ativo. O número dentro do `NTILE` define quantos segmentos você quer — se quiser 4 grupos, troca por `NTILE(4)`.
+Usa `NTILE(3)` para dividir os clientes em 3 grupos iguais, ordenando do mais ativo para o menos ativo. O número dentro do `NTILE` define quantos segmentos você quer, se quiser 4 grupos, troca por `NTILE(4)`.
 
 **Select final**  
 Traduz o número do segmento para um label legível via `CASE WHEN`.
